@@ -1,0 +1,307 @@
+
+    text-align:center;
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Taha 🎉</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background:linear-gradient(135deg,#ffc8dd,#bde0fe);
+}
+
+.page{
+    min-height:100vh;
+    display:none;
+    justify-content:center;
+    align-items:center;
+}
+
+.page.active{
+    display:flex;
+}
+
+.container{
+    background:white;
+    width:90%;
+    max-width:800px;
+    padding:2.5rem;
+    border-radius:20px;
+.main-title{
+    font-family:'Great Vibes', cursive;
+    font-size:3.5rem;
+    color:#ff4d6d;
+}
+
+.message{
+    font-size:1.1rem;
+    color:#555;
+    margin:1.5rem 0;
+}
+
+.btn{
+    background:#ff4d6d;
+    color:white;
+    border:none;
+    padding:0.8rem 2rem;
+    border-radius:30px;
+    font-size:1rem;
+    cursor:pointer;
+    margin:10px;
+}
+
+.btn:hover{
+    background:#e63950;
+}
+
+img, video{
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    margin-top:15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- PAGE 1 -->
+<div class="page active" id="page1">
+<div class="container">
+<h1 class="main-title">Happy Birthday Taha 🎂</h1>
+
+<p class="message">
+A small surprise made with lots of love 💖
+</p>
+<p class="message">
+Today is all about celebrating the most amazing person in my life and in my world 🌍I have created something magical just for you on your special day.......
+    <video width="400" controls>
+<source src="C:\Users\USer\Downloads\WhatsApp Video 2026-02-05 at 10.33.39 PM.mp4" type="video/mp4">
+</video>
+
+<br><br>
+<button class="btn" onclick="nextPage(1)">Next ➜</button>
+</div>
+</div>
+<!-- PAGE 2 --> 
+<div class="page" id="page2">
+<div class="container"> 
+<h1>lets open cards and read messages</h1>
+<img id="cardImage" src="C:\Users\USer\Pictures\birthday card 1.jpg" width="400">
+
+<br>
+<button class="btn" onclick="nextImage()">Next Image</button>
+<br><br>
+
+<button class="btn" onclick="nextPage(2)">Next ➜</button>
+</div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page" id="page3">
+<div class="container">
+<h1 class="main-title">My Dear Taha 💌</h1>
+
+<p class="message">
+You are one of the most special people in my life.  
+May your birthday be filled with love, smiles and happiness 🌸  
+Always stay blessed and successful.
+I don't have enough words to express how much you mean to me, but I hope this small surprise brings a big smile
+</p>
+<div style="
+background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+padding: 25px;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+font-family: 'Poppins', sans-serif;
+text-align: center;
+max-width: 700px;
+margin: auto;
+">
+
+<p style="font-size: 1.2rem; color: #444; line-height: 1.9;">
+💫 <span style="color:#ff4d6d; font-weight:600;">You deserve all the magic ✨, all the dreams 🌙, all the love 💖 this universe has to offer.</span>  
+May this year bring you closer to everything your heart desires 💝,  
+and may each day be filled with moments that take your breath away 😍🌸.
+</p>
+
+<p style="font-size: 1.2rem; color: #444; line-height: 1.9; margin-top:20px;">
+💞 Remember that you are <span style="color:#ff4d6d;">loved beyond measure</span> ❤️,  
+<span style="color:#ff4d6d;">appreciated beyond words</span> ✨,  
+and <span style="color:#ff4d6d;">cherished beyond time</span> ⏳💖.  
+<br><br>
+Thank you for being you — wonderful 🌟, amazing 💫,  
+and absolutely irreplaceable 💕🫶
+</p>
+
+<hr style="margin:30px auto; width:60%; border:1px dashed #ffb6c1;">
+
+<p style="font-size: 1.15rem; color:#555; line-height:1.9;">
+💗 <strong>Ap janty hain ap meri sab se zyada safe place ho</strong> 🫶  
+jis se main apni har baat keh sakti hoon 🤍.  
+<br>
+Hum ne itna waqt saath guzara ⏳💞,  
+ap ne mujh par itna trust kiya 🤝,  
+aur ap ne meri har baat maani 🥹💖.  
+<br><br>
+Is sab ke liye <span style="color:#ff4d6d; font-weight:700;">THANK YOUUUUUUUUUU</span> 😭💝✨
+</p>
+
+<div style="font-size:2rem; margin-top:15px;">
+❤️ 💖 💕 💓 💗 💞 💝
+</div>
+
+</div>
+
+<button class="btn" onclick="prevPage(3)">⬅ Back</button>
+<button class="btn" onclick="nextPage(3)">Next ➜</button>
+</div>
+</div>
+
+<!-- PAGE 4 -->
+<div class="page" id="page4">
+<div class="container">
+<h1 class="main-title">🎥 Special Video</h1>
+
+<p class="message">
+    "May this year bring you endless joy, boundless love, and all the dreams your heart desires. 
+                May each sunrise bring new hope, each sunset bring peace, and every moment in between be filled 
+                with laughter and cherished memories. You deserve the absolute best that life has to offer."
+        open the video below to see a special surprise I made just for you on your birthday 🎁    
+</p>
+
+<video width="400" controls>
+<source src="C:\Users\USer\Downloads\WhatsApp Video 2026-02-05 at 10.32.54 PM.mp4" type="video/mp4">
+</video>
+
+<br><br>
+<button class="btn" onclick="prevPage(4)">⬅ Back</button>
+<button class="btn" onclick="nextPage(4)">Next ➜</button>
+</div>
+</div>
+
+<!-- PAGE 5 -->
+<div class="page" id="page5">
+<div class="container">
+<h1 class="main-title">Final Wishes 🎁</h1>
+<p class="message">
+May all your dreams come true 🌟  
+Stay happy, stay smiling, always 💖
+</p>
+
+<video width="400" controls autoplay muted loop>
+<source src="C:\Users\USer\Downloads\WhatsApp Video 2026-02-05 at 10.32.55 PM.mp4" type="video/mp4">
+</video>
+
+<br><br>
+<button class="btn" onclick="prevPage(5)">⬅ Back</button>
+<button class="btn" onclick="restart()">Restart 🔄</button>
+</div>
+</div>
+
+<script>
+let currentPage = 1;
+
+/* PAGE NAVIGATION */
+function nextPage(n){
+document.getElementById("page"+n).classList.remove("active");
+document.getElementById("page"+(n+1)).classList.add("active");
+currentPage = n+1;
+}
+
+function prevPage(n){
+document.getElementById("page"+n).classList.remove("active");
+document.getElementById("page"+(n-1)).classList.add("active");
+currentPage = n-1;
+}
+
+function restart(){
+document.getElementById("page"+currentPage).classList.remove("active");
+document.getElementById("page1").classList.add("active");
+currentPage = 1;
+}
+
+/* IMAGE SLIDER */
+let images = [
+"C:\\Users\\USer\\Downloads\\WhatsApp Image 2026-02-05 at 10.06.07 PM (1).jpeg",
+"C:\\Users\\USer\\Downloads\\WhatsApp Image 2026-02-05 at 10.06.07 PM.jpeg",
+"C:\\Users\\USer\\Downloads\\WhatsApp Image 2026-02-05 at 10.06.03 PM (1).jpeg"
+];
+
+let imgIndex = 0;
+
+function nextImage(){
+imgIndex = (imgIndex + 1) % images.length;
+document.getElementById("cardImage").src = images[imgIndex];
+}
+</script>
+
+</body>
+</html>
+<style>
+/* 🎉 Confetti */
+.confetti{
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background: red;
+  top: -10px;
+  animation: fall 5s linear infinite;
+  opacity: 0.8;
+  z-index: 9999;
+}
+
+@keyframes fall{
+  to{
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
+
+/* 💖 Floating Hearts */
+.heart{
+  position: fixed;
+  bottom: -20px;
+  font-size: 24px;
+  animation: floatUp 6s linear infinite;
+  z-index: 9999;
+}
+
+@keyframes floatUp{
+  to{
+    transform: translateY(-110vh);
+    opacity: 0;
+  }
+}
+</style>
+<div id="decorations"></div>
+<script>
+/* 🎊 Confetti Generator */
+for(let i=0;i<40;i++){
+  let confetti = document.createElement("div");
+  confetti.className = "confetti";
+  confetti.style.left = Math.random()*100 + "vw";
+  confetti.style.background =
+    ["#ff4d6d","#ffd166","#4ecdc4","#bde0fe"][Math.floor(Math.random()*4)];
+  confetti.style.animationDuration = (Math.random()*3+3)+"s";
+  document.body.appendChild(confetti);
+}
+
+/* 💖 Floating Hearts Generator */
+setInterval(()=>{
+  let heart = document.createElement("div");
+  heart.className = "heart";
+  heart.innerHTML = "💖";
+  heart.style.left = Math.random()*100 + "vw";
+  heart.style.animationDuration = (Math.random()*3+4)+"s";
+  document.body.appendChild(heart);
+
+  setTimeout(()=>heart.remove(),7000);
+},600);
+</script>
